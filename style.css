@@ -1,0 +1,349 @@
+/* All References are in the Reference.txt file in the project folder */
+
+body {
+  margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#userGreeting {
+  margin-top: 2em;
+}
+
+#index_image_container {
+  width: 35vw;
+  height: 50vh;
+  background-color: aqua;
+}
+
+#index_arcade {
+  min-width: 200px;
+  width: 30%;
+  height: auto;
+  position: relative;
+  /* bottom: 50px; */
+}
+
+#opponentContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/***** Navbar ****/
+.navbar {
+    display: flex;
+    overflow: hidden;
+    /*background-color: #2da8e1;*/
+    background-color: rgb(137, 173, 197);
+    font-family: Arial;
+    max-height: 46px;
+
+    /* margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: 8px; */
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: 100%;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px; 
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(71, 125, 179);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .logout {
+    margin-left: auto;
+    margin-right: 2em;
+  }
+
+
+/*** GAMES gallery display **/
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  #galleryContainer{
+
+    display: flex;
+    flex-direction: column;
+    min-width: 50vw;
+    min-height: 50vw;
+  }
+
+
+
+
+#content {
+  text-align: center;
+}
+
+#homepageContent {
+
+  padding-left: 2em;
+}
+
+#loginBody {
+  background-color: rgb(107, 155, 189);
+  overflow-x:auto;
+
+}
+
+#loginLayout {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#loginLayout > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+#loginTitle{
+  color: white; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 5em; 
+  font-weight: bold; 
+  letter-spacing: -1px; 
+  line-height: 1;
+  text-align: center; 
+}
+
+
+
+/*** Modal Login Pop up */
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content Box */
+.modal-content {
+  background-color: #bc81dc;
+  margin: 20vh auto; /* 15% from the top and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 25px;
+  top: 0; 
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.modalSection {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5em;
+
+  border: outset;
+  border-color: #bc81dc;
+}
+
+#modalPopUp {
+  width: 50%;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Button Styles */
+
+.loginButton {
+  appearance: button;
+  background-color: #3f9fcc;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: .8px;
+  line-height: 20px;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+
+  padding: 1em;
+  margin-top: 1em;
+}
+
+
+
+.loginButton:after {
+  background-clip: padding-box;
+  background-color: #24759b;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.loginButton:main,
+.loginButton:focus {
+  user-select: auto;
+}
+
+.loginButton:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.loginButton:disabled {
+  cursor: auto;
+}
+
+
+.loginEntry {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 35vw;
+}
+
+.loginEntry > input {
+  height: 2.5em;
+}
+
+.loginButton.miniLoginButton{
+
+  background-color: #6b47bf;
+}
+
+.loginButton.miniLoginButton:after{
+  background-color: #997ae3;
+}
+

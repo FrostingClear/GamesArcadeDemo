@@ -1,0 +1,87 @@
+/* All References are in the Reference.txt file in the project folder */
+
+body {
+  margin: 0px;
+}
+
+
+
+#sideAndContent {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.sidenav {
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(152, 191, 218);
+    
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 8px;
+
+    /*border: 3px rgb(55, 173, 232);*/
+}
+
+
+
+.sidenav > a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    min-width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-height: 2em;
+    font-size: 19px;
+
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.sidenav > a:hover {
+    background-color: rgb(125, 177, 230);
+}
+
+#content {
+    padding: 7px;
+    flex: 7;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    border-width: 3px;
+    font-weight: bold;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  td, th {
+    border: 2px solid #7eade6;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: rgb(187, 215, 243);
+  }
+
+  th {
+    background-color: #76a6e1;
+    color: white;
+  }
+ 
+  .tableTitle , .tableTitle > th{
+    background-color: #3a5a81;
+    border-right: none;
+    border-left: none;
+  }

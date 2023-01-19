@@ -1,0 +1,137 @@
+*****References*****
+
+Many url titles are self explanatory, I've left comments where appropriate to point out where they might have specifically been used
+
+
+*** HTML ***
+
+https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html
+- I think I used this for the register button
+
+
+https://www.w3schools.com/tags/ev_onmousedown.asp
+https://www.w3schools.com/jsref/event_onmouseover.asp
+https://www.w3schools.com/jsref/event_onmouseup.asp
+https://stackoverflow.com/questions/18032220/how-to-change-source-of-img-tag-on-hover
+- To allow visual feedback when clicking rock/paper/scissors icons
+
+https://www.w3schools.com/tags/att_input_maxlength.asp
+- Registration form input limits
+
+
+
+
+
+
+*** JavaScript ***
+
+https://www.educative.io/answers/how-to-add-an-id-to-element-in-javascript 
+
+
+https://mailtrap.io/blog/javascript-send-email/
+https://www.indeed.com/career-advice/career-development/how-to-make-email-link-in-html
+- The mail me an idea function
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+- Random number generator for paper scissors rock
+
+https://www.w3schools.com/php/func_math_round.asp
+- To round out the win rate value
+
+https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML
+- DOM manipulation via javascript
+
+https://developer.mozilla.org/en-US/docs/Web/API/Element/remove
+- Used for pickup 52
+
+
+
+
+
+
+*** CSS ***
+
+I used a lot of these links as templates which I adjusted to my needs
+Some with very minor adjustments from the original state (navbar, buttons, login headings)
+others slightly more so (modal login pop up window)
+
+http://projects.verou.me/bubbly/ 
+- speech bubble 
+
+https://www.w3schools.com/css/css_image_gallery.asp 
+- Game selection Gallery
+
+https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp
+- Nav Bar
+
+https://www.w3schools.com/html/html_tables.asp
+- Table styling for "my stats"
+
+https://www.w3schools.com/css/css_overflow.asp
+- Scrollbars for pickup52
+
+https://wdexplorer.com/20-examples-beautiful-css-typography-design/
+- Used for my main page heading <h1> elements
+
+https://getcssscan.com/css-buttons-examples
+- Login / Registration page buttons
+
+https://stackoverflow.com/questions/36182743/how-to-prevent-a-flex-box-from-growing-with-content
+
+https://blog.hubspot.com/website/remove-underline-from-links-css
+
+https://www.w3schools.com/w3css/w3css_sidebar.asp
+- Can't remember whether I directly used the code from this or not, but definitely gave me inspiration
+
+
+
+
+
+
+*** PHP ***
+
+https://www.webucator.com/article/how-to-check-case-sensitivity-in-sql-server/
+- Login password case sensitivity
+
+https://www.tutorialrepublic.com/php-tutorial/php-functions.php
+https://www.w3schools.com/php/php_functions.asp
+https://stackoverflow.com/questions/42657319/how-to-call-php-function-from-another-file
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values
+- PHP function overview
+
+https://www.w3schools.com/php/php_oop_constructor.asp
+- player class
+
+https://www.w3schools.com/php/php_arrays.asp
+https://www.w3schools.com/php/func_array_push.asp
+https://www.w3schools.com/php/php_arrays_sort.asp
+
+https://sebhastian.com/call-php-function-from-javascript/
+
+https://www.w3schools.com/php/php_mysql_prepared_statements.asp
+- Binding multiple parameters
+
+https://www.w3schools.com/php/php_date.asp
+https://stackoverflow.com/questions/10554350/why-is-php-timezone-is-correct-on-local-host-but-incorrect-after-uploading-to-s
+- Time display on the homepage
+
+
+https://www.php.net/manual/en/language.operators.string.php
+- Concatenation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

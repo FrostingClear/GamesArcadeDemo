@@ -1,0 +1,103 @@
+/* All References are in the Reference.txt file in the project folder */
+
+#PSRopponent {
+    
+    margin-left: 9em;
+    width: 250px;
+    height: 200px;
+}
+
+#optionsLabel{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+#PSRmatchArea {
+
+    width: 30vw;
+    height: 25vw;
+    min-height: 15em;
+    min-width: 15em;
+    border: 5px inset rgb(131, 175, 219);
+    border-radius: 20px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.matchAreaSection {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#matchAreaMid.matchAreaSection {
+    font-weight: bold;
+}
+
+#PSRgameSpace {
+
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#PSRplayerOptions, #optionsLabel {
+
+    min-width: 50vw;
+    min-height: 30%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    border: 3px solid rgb(131, 175, 219);
+}
+
+#PSRplayerOptions {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.rpsOpt {
+    flex-basis: 15%;
+}
+
+
+#speechBubble {
+    display: flex-end;
+	background: #ebebeb;
+	border-radius: 2em;
+    padding: 2em;
+    
+}
+
+#speechBubble::before {
+	content: '';
+	position: relative;
+	top: 8px;
+	right: 40px;
+	width: 0;
+	height: 0;
+	border: 0.969em solid transparent;
+	border-bottom-color: #ebebeb;
+	margin-left: -0.484em;
+	margin-top: -0.969em;
+}
+
+#PSRopponent {
+    animation: jiggle 0.25s 3 linear;
+}
+
+@keyframes jiggle {
+    
+    from{position: relative; left:1px}
+    50%{position: relative;}
+    100%{position: relative; right: 1px;}
+}

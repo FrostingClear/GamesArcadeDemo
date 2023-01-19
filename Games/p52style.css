@@ -1,0 +1,30 @@
+/* All References are in the Reference.txt file in the project folder */
+
+/* Ensure page scrolling is enabled in case some cards get flung too far especially in mobile context */
+body {
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+/* Card Styling */
+.card {
+    background-color: rgb(246, 247, 248);
+    border: 2px black solid;
+    display: inline;
+
+    position: absolute;
+    
+    font-size: 12px;
+    font-weight: bold;
+
+    width: 65px;
+    height: 80px;
+
+    border-radius: 5px;
+}
+
+.card:hover {
+
+    background-color: rgb(203, 204, 206);
+    border-width: 5px;
+}
