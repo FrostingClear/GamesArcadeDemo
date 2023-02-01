@@ -1,3 +1,8 @@
+Screenshots:
+
+Can be found in the "functional screenshots" folder
+
+
 Description:
 
 This is a web page/ webapp which demonstrates the use of HTML, CSS, JavaScript, PHP and SQL which I made for a class assignment.
